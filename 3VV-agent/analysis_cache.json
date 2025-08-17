@@ -1,0 +1,16 @@
+{
+    "D:\\Projects\\3VV-agent\\test_images\\946_0000.png": {
+        "data": {
+            "diameter_AO": 52.33,
+            "diameter_DA": 41.0
+        },
+        "status": "success"
+    },
+    "D:\\Projects\\3VV-agent\\test_images\\4817_0000.png": {
+        "data": {
+            "diameter_AO": 35.78,
+            "diameter_DA": 26.87
+        },
+        "status": "success"
+    }
+}

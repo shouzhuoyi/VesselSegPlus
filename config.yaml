@@ -1,0 +1,12 @@
+work_dir: "C:/Users/31758/Desktop/Proj/3VV"
+input_folder: "C:/Users/31758/Desktop/predictions/nnwnet"
+output_csv: "output_wnet.csv"
+output_json: "output_wnet.json"
+visualize: false
+diameter_search_length: 30
+groups_path: "C:/Users/31758/Desktop/Proj/ysz/gold_standard"
+output_dir: "C:/Users/31758/Desktop/Proj/3VV/output"
+model_files:
+  unet: "C:/Users/31758/Desktop/Proj/3VV/output_unet.csv"
+  wnet: "C:/Users/31758/Desktop/Proj/3VV/output_wnet.csv"
+  unetpp: "C:/Users/31758/Desktop/Proj/3VV/output_unetpp.csv"

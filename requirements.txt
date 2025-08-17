@@ -1,0 +1,15 @@
+numpy
+opencv-python
+scikit-image
+scipy
+matplotlib
+pyyaml
+jsonschema
+pandas
+requests
+langchain
+langchain-ollama
+langchain-core
+Pillow
+flask
+nnunetv2

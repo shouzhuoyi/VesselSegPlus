@@ -1,0 +1,27 @@
+# Configuration for the 3VV-agent
+
+# General settings
+app:
+  plugin_api_url: "http://127.0.0.1:5000/analyze_3vv"
+  cache_file: "analysis_cache.json"
+
+# LLM and Prompt settings
+llm:
+  agent_model: "gemma"
+  report_generation_model: "llama3"
+  prompt_template_file: "prompt.txt"
+
+# Test settings
+testing:
+  default_image_path: '../test_images/946_0000.png'
+  input_numpy_path: "../label_mask.npy"
+  output_color_mask_path: "../color_mask_visualization.png"
+  segmentation_output_visual_path: "../segmentation_output.png"
+  segmentation_output_numpy_path: "../label_mask.npy"
+
+# Segmentation model settings
+segmentation:
+  dataset_id: 6
+  configuration: "2d"
+  fold: 0
+  temp_folder: "./temp_io"

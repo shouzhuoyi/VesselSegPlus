@@ -1,0 +1,16 @@
+{
+    "channel_names": {
+        "0": "R",
+        "1": "G",
+        "2": "B"
+    },
+    "labels": {
+        "background": 0,
+        "class1": 1,
+        "class2": 2,
+        "class3": 3
+    },
+    "numTraining": 277,
+    "file_ending": ".png",
+    "name": "Dataset006_3VV_New"
+}
